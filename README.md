@@ -5,3 +5,4 @@ The dataset can be found [here](https://github.com/zalandoresearch/fashion-mnist
 
 To import the dataset you need the file mnist_reader.py that you can download from [here](https://github.com/zalandoresearch/fashion-mnist/tree/master/utils)
 Make sure it's in the same folder as the conv net file.
+Got a maximum accuracy of 92% on test set when trained for 60 epochs.
