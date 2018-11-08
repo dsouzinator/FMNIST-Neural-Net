@@ -1,3 +1,6 @@
+### Created by https://github.com/dsouzinator on github
+### Please keep these set of comments for future use
+
 from __future__ import print_function
 import numpy as np  # linear algebra
 import keras
@@ -72,7 +75,7 @@ fashionModel = fashion_model(input_shape)
 
 
 fashionModel.compile(optimizer="adam", loss="categorical_crossentropy", metrics=['accuracy'])
-fashionModel.fit(X_train, y_train, epochs=1, batch_size=64)
+fashionModel.fit(X_train, y_train, epochs=60, batch_size=64)
 
 preds = fashionModel.evaluate(X_test, y_test, batch_size=16)
 
