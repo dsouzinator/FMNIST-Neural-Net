@@ -7,3 +7,5 @@ To import the dataset you need the file mnist_reader.py that you can download fr
 Make sure it's in the same folder as the conv net file.
 
 Got a maximum accuracy of 92% on test set when trained for 60 epochs.
+
+Training weights file will be uploaded soon
