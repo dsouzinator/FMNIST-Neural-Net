@@ -8,4 +8,4 @@ Make sure it's in the same folder as the conv net file.
 
 Got a maximum accuracy of 92% on test set when trained for 60 epochs.
 
-Training weights file will be uploaded soon
+Repository also contains the model and model weights
