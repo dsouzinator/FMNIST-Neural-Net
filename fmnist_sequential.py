@@ -12,11 +12,13 @@ from keras.utils import to_categorical
 from keras.layers import LeakyReLU
 from keras import backend as K
 from keras.models import Model
+from keras.datasets import fashion_mnist
 import mnist_reader
 import matplotlib.pylab as plt
 
-X_train, y_train = mnist_reader.load_mnist('./fmnist/data', kind='train')
-X_test, y_test = mnist_reader.load_mnist('./fmnist/data', kind='t10k')
+from keras.datasets import fasion_mnist
+((X_train, y_train), (X_test, y_test)) = fashion_mnist.load_data()
+
 
 X_train = X_train.reshape([-1, 28, 28, 1])
 X_test = X_test.reshape([-1, 28, 28, 1])
