@@ -16,7 +16,7 @@ from keras.datasets import fashion_mnist
 import tensorflow as tf
 import matplotlib.pylab as plt
 
-from keras.datasets import fasion_mnist
+# from keras.datasets import fasion_mnist
 ((X_train, y_train), (X_test, y_test)) = tf.keras.datasets.fashion_mnist.load_data()
 
 
